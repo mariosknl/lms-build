@@ -3,7 +3,7 @@
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import { BookMarkedIcon, BookOpen } from "lucide-react";
 import Link from "next/link";
-// import { SearchInput } from "./SearchInput";
+import { SearchInput } from "./SearchInput";
 import { Button } from "./ui/button";
 import DarkModeToggle from "./DarkModeToggle";
 
@@ -24,7 +24,7 @@ export default function Header() {
               </span>
             </Link>
 
-            {/* <SearchInput /> */}
+            <SearchInput />
           </div>
 
           <div className="flex items-center space-x-2 md:space-x-4">
