@@ -4,6 +4,7 @@ import { urlFor } from "@/sanity/lib/image";
 import Image from "next/image";
 import Link from "next/link";
 import { Loader } from "./ui/loader";
+import { CourseProgress } from "./CourseProgress";
 
 interface CourseCardProps {
   course: GetCoursesQueryResult[number];
@@ -80,14 +81,14 @@ const CourseCard = ({ course, progress, href }: CourseCardProps) => {
                 <BookOpen className="h-4 w-4 text-muted-foreground" />
               </div>
             )}
-            {/* {typeof progress === "number" && (
+            {typeof progress === "number" && (
               <CourseProgress
                 progress={progress}
                 variant="default"
                 size="sm"
                 label="Course Progress"
               />
-            )} */}
+            )}
           </div>
         </div>
       </div>
