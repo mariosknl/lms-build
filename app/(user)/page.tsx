@@ -2,6 +2,9 @@ import CourseCard from "@/components/CourseCard";
 import Hero from "@/components/Hero";
 import { getCourses } from "@/sanity/lib/courses/getCourses";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 3600;
+
 export default async function Home() {
   const courses = await getCourses();
 
