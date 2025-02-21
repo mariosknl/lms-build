@@ -5,7 +5,7 @@ import { auth } from "@clerk/nextjs/server";
 import { ArrowLeft, BookOpen } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-
+import EnrollButton from "@/components/EnrollButton";
 interface CoursePageProps {
   params: Promise<{
     slug: string;
@@ -71,7 +71,7 @@ const CoursePage = async ({ params }: CoursePageProps) => {
               <div className="text-3xl font-bold text-white mb-4">
                 {course.price === 0 ? "Free" : `$${course.price}`}
               </div>
-              {/* <EnrollButton courseId={course._id} isEnrolled={isEnrolled} /> */}
+              <EnrollButton courseId={course._id} isEnrolled={isEnrolled} />
             </div>
           </div>
         </div>
