@@ -36,8 +36,8 @@ importers:
         specifier: '2'
         version: 2.0.2
       '@sanity/preview-url-secret':
-        specifier: ^2.1.4
-        version: 2.1.16(@sanity/client@7.14.0)(@sanity/icons@3.7.4(react@19.2.3))(sanity@4.22.0(@emotion/is-prop-valid@1.2.2)(@portabletext/sanity-bridge@1.2.14(@types/react@19.2.7))(@types/node@24.10.4)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(immer@10.2.0)(jiti@2.6.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(styled-components@6.1.19(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(typescript@5.9.3)(yaml@2.8.2))
+        specifier: ^4.0.0
+        version: 4.0.2(@sanity/client@7.14.0)
       '@sanity/vision':
         specifier: '4'
         version: 4.22.0(@babel/runtime@7.28.4)(@codemirror/lint@6.9.2)(@codemirror/theme-one-dark@6.1.2)(@emotion/is-prop-valid@1.2.2)(codemirror@6.0.1)(react-dom@19.2.3(react@19.2.3))(react-is@19.2.3)(react@19.2.3)(sanity@4.22.0(@emotion/is-prop-valid@1.2.2)(@portabletext/sanity-bridge@1.2.14(@types/react@19.2.7))(@types/node@24.10.4)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(immer@10.2.0)(jiti@2.6.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(styled-components@6.1.19(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(typescript@5.9.3)(yaml@2.8.2))(styled-components@6.1.19(react-dom@19.2.3(react@19.2.3))(react@19.2.3))
@@ -2535,19 +2535,6 @@ packages:
     resolution: {integrity: sha512-D0S2CfVyda99cd/8SnXxQ2tsVlVuRq4CAOjxRuF53evYmBhpWezSEpWKqAa0e1lunGBKK1EroxmOzb5ofNRwMg==}
     engines: {node: '>=20.19 <22 || >=22.12'}
 
-  '@sanity/preview-url-secret@2.1.16':
-    resolution: {integrity: sha512-w8N0x8JL4iJ5BZvt9X9pTiXQcSIvBsqtN9rYp7uD5X7JEOgm7heTCxfBYFJUj3Pv5n8Z8W4d872AXZBI5stB6Q==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      '@sanity/client': ^7.12.0
-      '@sanity/icons': '*'
-      sanity: '*'
-    peerDependenciesMeta:
-      '@sanity/icons':
-        optional: true
-      sanity:
-        optional: true
-
   '@sanity/preview-url-secret@3.0.0':
     resolution: {integrity: sha512-O7o6hsxbMp7y20znU9seV6h8WeTS+U4ovtqLd6j3oaSRyuriZenN/O6K39LJaKC2TZY1RUsYRvcv5/rNq7sAEQ==}
     engines: {node: '>=18'}
@@ -2560,6 +2547,12 @@ packages:
         optional: true
       sanity:
         optional: true
+
+  '@sanity/preview-url-secret@4.0.2':
+    resolution: {integrity: sha512-nl+ad5yDgI8cqkPPBICgkxs4zTF4HDE65L+ATfT2p3MYFrNX/8Dsj70q3AZo/9IuPQhmq2XGXrC52k1EQ3T2zg==}
+    engines: {node: '>=20.19 <22 || >=22.12'}
+    peerDependencies:
+      '@sanity/client': ^7.13.2
 
   '@sanity/runtime-cli@12.3.0':
     resolution: {integrity: sha512-lgUPEHegreb+pQFlB0+TeabDpyDXuiA8BCr1lJ2fZR1LViNDnMf25H0Y9SWKt+njqx6KtAEV3KrncYNN7CP6vg==}
@@ -9252,14 +9245,6 @@ snapshots:
       - '@sanity/client'
       - '@sanity/types'
 
-  '@sanity/preview-url-secret@2.1.16(@sanity/client@7.14.0)(@sanity/icons@3.7.4(react@19.2.3))(sanity@4.22.0(@emotion/is-prop-valid@1.2.2)(@portabletext/sanity-bridge@1.2.14(@types/react@19.2.7))(@types/node@24.10.4)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(immer@10.2.0)(jiti@2.6.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(styled-components@6.1.19(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(typescript@5.9.3)(yaml@2.8.2))':
-    dependencies:
-      '@sanity/client': 7.14.0(debug@4.4.3)
-      '@sanity/uuid': 3.0.2
-    optionalDependencies:
-      '@sanity/icons': 3.7.4(react@19.2.3)
-      sanity: 4.22.0(@emotion/is-prop-valid@1.2.2)(@portabletext/sanity-bridge@1.2.14(@types/react@19.2.7))(@types/node@24.10.4)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(immer@10.2.0)(jiti@2.6.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(styled-components@6.1.19(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(typescript@5.9.3)(yaml@2.8.2)
-
   '@sanity/preview-url-secret@3.0.0(@sanity/client@7.14.0)(@sanity/icons@3.7.4(react@19.2.3))(sanity@4.22.0(@emotion/is-prop-valid@1.2.2)(@portabletext/sanity-bridge@1.2.14(@types/react@19.2.7))(@types/node@24.10.4)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(immer@10.2.0)(jiti@2.6.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(styled-components@6.1.19(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(typescript@5.9.3)(yaml@2.8.2))':
     dependencies:
       '@sanity/client': 7.14.0(debug@4.4.3)
@@ -9267,6 +9252,11 @@ snapshots:
     optionalDependencies:
       '@sanity/icons': 3.7.4(react@19.2.3)
       sanity: 4.22.0(@emotion/is-prop-valid@1.2.2)(@portabletext/sanity-bridge@1.2.14(@types/react@19.2.7))(@types/node@24.10.4)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(immer@10.2.0)(jiti@2.6.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(styled-components@6.1.19(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(typescript@5.9.3)(yaml@2.8.2)
+
+  '@sanity/preview-url-secret@4.0.2(@sanity/client@7.14.0)':
+    dependencies:
+      '@sanity/client': 7.14.0(debug@4.4.3)
+      '@sanity/uuid': 3.0.2
 
   '@sanity/runtime-cli@12.3.0(@types/node@24.10.4)(debug@4.4.3)(typescript@5.9.3)(yaml@2.8.2)':
     dependencies:
