@@ -17,7 +17,7 @@
     "@radix-ui/react-scroll-area": "^1.2.3",
     "@radix-ui/react-slot": "^1.1.2",
     "@radix-ui/react-tooltip": "^1.1.8",
-    "@sanity/client": "^7.0.0",
+    "@sanity/client": "^8.0.0",
     "@sanity/image-url": "2",
     "@sanity/preview-url-secret": "^4.0.0",
     "@sanity/vision": "6",
